@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: #D5DFE7;
+    padding: 0px 50px;
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+.__row{
+    min-height: 100vh;
+}
+
+.container{
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0;
+    background: #D5DFE7;
+    box-shadow:  5px 5px 16px #c8d2d9,
+             -5px -5px 16px #e2ecf5;
+}
+
+
+/* Column Left */
+.__column-left{
+    padding: 0 !important;
+    border-radius: 10px;
+    background: #D5DFE7;
+    box-shadow:  5px 5px 16px #c8d2d9,
+             -5px -5px 16px #e2ecf5;
+}
+
+.__form-login{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+
+.__form-login h1{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #023047;
+
+}
+
+.__form-login p{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: .5;
+    color: #023047;
+}
+
+.__form-login a{
+    padding: 8px 20px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #005682 !important;
+    outline: none;
+    border: none;
+    color: #e0e0e07c;
+    transition: all 0.5s ease-in-out;
+}
+
+.__form-login a:hover{
+    background-color: #002c42 !important;
+    color: #ffffff;
+}
+
+/* Column Right */
+
+.__column-right{
+    padding-right: 0 !important;
+}
+
+.__column-right h1{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #023047;
+}
+
+.alert{
+    width: 65% !important;
+}
+
+.__column-right form{
+    width: 65%;
+    background: #D5DFE7;
+    box-shadow:  5px 5px 16px #c8d2d9,
+             -5px -5px 16px #e2ecf5;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+form input, form select, form input:focus, form select:focus{
+    padding: 10px!important;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 10px;
+    background: #D5DFE7;
+    box-shadow: inset 5px 5px 16px #c8d2d9 ,
+                inset -5px -5px 16px #e2ecf5 !important;
+}
+
+form .button{
+    padding: 12px 24px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-color: #005682 !important;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 0px 0px 0px #c8d2d9,
+                inset 0px 0px 0px #e2ecf5 !important;
+}
+
+form .button:hover{
+    background-color: #002c42 !important;
+    color: #ffffff;
+}
+
+.error{
+    /* color: #005682; */
+    color: rgba(255, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* Responsive Design */
+
+@media (min-width: 768px) and (max-width: 992px){
+    .__form-login{
+        color: red;
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+
+    .__createAcc{
+        line-height: 40px;
+        margin-top: 30px;
+        font-size: 32px !important;
+    }
+
+    .__column-right form{
+        width: 85%;
+        padding: 10px !important;
+        background: #D5DFE7;
+        box-shadow:  5px 5px 16px #c8d2d9,
+             -5px -5px 16px #e2ecf5;
+        padding-top: 30px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    form input, form select, form input:focus, form select:focus{
+        padding: 10px!important;
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+        border-radius: 10px;
+        background: #D5DFE7 !important;
+        box-shadow: inset 5px 5px 16px #c8d2d9 ,
+                    inset -5px -5px 16px #e2ecf5 !important;
+        margin-bottom: 15px;
+    }
+
+    .form-group{
+        margin-bottom: 0px !important;
+    }
+
+    .__registerForm{
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .__column-left{
+        padding: 0 !important;
+        border-radius: 10px;
+        background: #D5DFE7;
+        box-shadow:  0px 0px 0px #c8d2d9,
+                     0px 0px 0px #e2ecf5;
+        min-height: 150px !important;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .__form-login{
+        height: 100%;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+        margin-bottom: 100px;
+    }
+
+    .__form-login h1{
+
+    }
+
+    .__column-right{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 0 !important;
+    }
+
+    .__createAcc{
+        line-height: 40px;
+        margin-top: 30px;
+        font-size: 32px !important;
+    }
+
+    .__column-right form{
+        width: 90%;
+        padding: 10px !important;
+        background: #D5DFE7;
+        box-shadow:  0px 0px 0px #c8d2d9,
+                 0px 0px 0px #e2ecf5;
+        padding: 40px;
+        padding-top: 20px;
+    }
+
+    form input, form select, form input:focus, form select:focus{
+        padding: 10px!important;
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+        border-radius: 10px;
+        background: #D5DFE7 !important;
+        box-shadow: inset 5px 5px 16px #c8d2d9 ,
+                    inset -5px -5px 16px #e2ecf5 !important;
+        margin-bottom: 20px;
+    }
+
+    .form-group{
+        margin-bottom: 0px !important;
+    }
+
+    .alert{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 576px){
+
+    .__column-left{
+        padding: 0 !important;
+        border-radius: 10px;
+        background: #D5DFE7;
+        box-shadow:  5px 5px 16px #c8d2d9,
+                    -5px -5px 16px #e2ecf5;
+        min-height: 150px !important;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .__form-login{
+        height: 100%;
+        padding-right: 40px !important;
+        padding-left: 40px !important;
+        margin-bottom: 100px;
+    }
+
+    .__form-login h1{
+
+    }
+
+    .__column-right{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 0 !important;
+    }
+
+    .__createAcc{
+        line-height: 40px;
+        margin-top: 30px;
+        font-size: 32px !important;
+    }
+
+    .__column-right form{
+        width: 90%;
+        padding: 10px !important;
+        background: #D5DFE7;
+        box-shadow:  0px 0px 0px #c8d2d9,
+                 0px 0px 0px #e2ecf5;
+        padding: 40px;
+        padding-top: 20px;
+    }
+
+    form input, form select, form input:focus, form select:focus{
+        padding: 10px!important;
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+        border-radius: 10px;
+        background: #D5DFE7 !important;
+        box-shadow: inset 5px 5px 16px #c8d2d9 ,
+                    inset -5px -5px 16px #e2ecf5 !important;
+        margin-bottom: 20px;
+    }
+
+    .form-group{
+        margin-bottom: 0px !important;
+    }
+
+    .alert{
+        width: 90% !important;
+    }
+}

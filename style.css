@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+.__navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002c42 !important;
+    min-height: 15vh;
+    width: 100%;
+}
+
+/* .navbar-toggler{
+    color: black;
+    background-color: red;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+    color: black;
+} */
+
+.__header-con{
+    min-height: 85vh;
+    background-color: #D5DFE7 !important;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("Teeth\ examination\ and\ dentistry.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.__heading-con{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.__heading-con h1{
+    line-height: 38px;
+    color: #D5DFE7;
+    text-shadow: 0px 1px 4px #282f8f;
+}
+
+.__heading-link{
+    padding: 12px 22px;
+    background-color: #002c42 !important;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #D5DFE7;
+    transition: 0.3s ease-in-out;
+    box-shadow: 1px 4px 16px 0px rgba(44,94,140,0.53);
+-webkit-box-shadow: 1px 4px 16px 0px rgba(44,94,140,0.53);
+-moz-box-shadow: 1px 4px 16px 0px rgba(44,94,140,0.53);
+}
+
+.__heading-link:hover{
+    text-decoration: none;
+    color: #D5DFE7;
+    background-color: #005681 !important;
+}
+    
+
+.__sectionOne{
+    min-height: 300px;
+    background-color: #D5DFE7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__mission{
+    background-color: #002c42;
+    padding: 30px;
+    border-radius: 15px;
+    color: #D5DFE7;
+}
+
+.__misIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-60px);
+    padding: 30px 40px;
+    background-color: #005681;
+    width: 50px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.__misIcon i{
+    font-size: 24px;
+}
+
+.__vission{
+    background-color: #002c42;
+    padding: 30px;
+    border-radius: 15px;
+    color: #D5DFE7;
+}
+
+.__visIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-60px);
+    padding: 30px 40px;
+    background-color: #005681;
+    width: 50px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.__visIcon i{
+    font-size: 24px;
+}
+
+.__card{
+    border-radius: 50px;
+    box-shadow: 3px 6px 9px -3px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 3px 6px 9px -3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 3px 6px 9px -3px rgba(0,0,0,0.55);
+    transition: 0.5s ease;
+}
+
+.__cards{
+    min-height: 350px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #D5DFE7;
+    box-shadow: 3px 6px 9px -3px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 3px 6px 9px -3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 3px 6px 9px -3px rgba(0,0,0,0.55);
+    transition: 0.5s ease;
+}
+
+.__cards:hover{
+    transform: translateY(-15px);
+}
+
+.__card:hover{
+    transform: translateY(-15px);
+}
+
+.__sectionThree{
+    min-height: 500px;
+    background-color: #D5DFE7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__footer{
+    background-color: #002030;
+    color: darkgray;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__links a{
+    text-decoration: none;
+}
+
+.__links a i{
+    border-radius: 45px;
+    color: #005681;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    transition: 0.5s ease;
+}
+
+.__links a:hover i{
+    border-radius: 45px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #002c42;
+}
+
+.__number i, .__location i{
+    border-radius: 45px;
+    color: #005681;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    transition: 0.5s ease;
+}
+
+.__number i:hover, .__location i:hover{
+    border-radius: 45px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #002c42;
+}
+
+.__reqBtn{
+    padding: 8px 18px;
+    background-color: #002c42 !important;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #D5DFE7;
+    transition: 0.3s ease-in-out;
+    box-shadow: 1px 4px 16px 0px rgba(44,94,140,0.53);
+    -webkit-box-shadow: 1px 4px 16px 0px rgba(44,94,140,0.53);
+    -moz-box-shadow: 1px 4px 16px 0px rgba(44,94,140,0.53);
+    margin: 0 auto;
+}
+
+.__reqBtn:hover{
+    text-decoration: none;
+    color: #D5DFE7;
+    background-color: #005681 !important;
+}
+
